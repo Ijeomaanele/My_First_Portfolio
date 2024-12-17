@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tweets</title>
+    <title>My Tweets Page</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
-    <h1>Welcome to My Tweets Page!</h1>
+    <!-- Header with navigation links -->
+    <header>
+        <h1>My Tweets Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">My Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Learning how to code is fun! 🎉 <a href="https://twitter.com/hashtag/CodeNewbie?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbie</a></p>
-        &mdash; Twitter Dev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1354475197557254144?ref_src=twsrc%5Etfw">January 26, 2021</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Main content with embedded tweet -->
+    <main>
+        <h2>Check Out My Tweet</h2>
+        <article>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <a href="https://twitter.com/TwitterDev/status/1460323737035675653"></a>
+            </blockquote>
+        </article>
+    </main>
 
-    <!-- Link back to the homepage -->
-    <p><a href="index.html">Go back to the homepage</a></p>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My First Webpage. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
+
+
